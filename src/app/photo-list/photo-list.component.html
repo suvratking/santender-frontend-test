@@ -1,0 +1,10 @@
+<div class="photo-list container">
+    <div class="container">
+        <div *ngFor="let photo of photos" class="row">
+            <div *ngFor="let ph of photo" class="col">
+                <img [src]="ph.thumbnailUrl" [alt]="ph.title">
+                <p style="padding-top: 2%;">{{ ph.title }}</p>
+            </div>
+        </div>
+    </div>
+</div>

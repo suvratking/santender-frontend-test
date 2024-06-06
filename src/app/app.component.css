@@ -1,0 +1,14 @@
+.photo-list {
+    display: flex;
+  }
+  
+  .photo-item {
+    margin: 10px;
+  }
+  
+  .photo-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
